@@ -20,7 +20,7 @@
 
 python_prompt_framework/
 │
-├── python_prompt_framework/ # Main package
+├── framework/ # Main package
 │ ├── init.py # Package initializer
 │ ├── core.py # Prompt engine (load & render templates)
 │ ├── prompt_chain.py # Handles prompt chaining
@@ -110,3 +110,4 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
