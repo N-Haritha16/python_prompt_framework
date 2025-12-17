@@ -1,8 +1,8 @@
 import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).parent))
-from python_prompt_framework.core import PromptEngine
-from python_prompt_framework.prompt_chain import PromptChain
+from framework.core import PromptEngine
+from framework.prompt_chain import PromptChain
 
 
 engine = PromptEngine("templates")
@@ -40,3 +40,4 @@ print("sequence5",chain.run_chain(sequence5, {
     "product_name": "Aha-Bha",
     "price": 30
 }))
+
