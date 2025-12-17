@@ -1,0 +1,12 @@
+name: cot_multiplication
+description: Chain-of-thought multiplication
+input_vars:
+  - name: x
+    type: int
+    required: true
+  - name: y
+    type: int
+    required: true
+template: |
+  the result is: {{x*y}}
+pattern: cot

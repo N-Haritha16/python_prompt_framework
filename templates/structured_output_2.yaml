@@ -1,0 +1,19 @@
+name: structured_product
+description: Return product info in JSON
+input_vars:
+  - name: previous_output
+    type: str
+    required: false
+  - name: product_name
+    type: str
+    required: true
+  - name: price
+    type: int
+    required: true
+
+template: |
+ 
+  {{previous_output}} I brought the "{{product_name}}" with "{{price}}"
+  
+
+pattern: structured

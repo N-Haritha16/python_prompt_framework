@@ -1,0 +1,12 @@
+name: structured_user_info
+description: Return user info in JSON
+input_vars:
+  - name: name
+    type: str
+    required: true
+  - name: age
+    type: int
+    required: true
+template: |
+  I am "{{name}}" of age is "{{age}}"
+pattern: structured

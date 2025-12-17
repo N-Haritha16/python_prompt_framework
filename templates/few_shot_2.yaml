@@ -1,0 +1,12 @@
+name: multiply_example
+description: Few-shot multiplication example
+input_vars:
+  - name: x
+    type: int
+    required: true
+  - name: y
+    type: int
+    required: true
+template: |
+  Now calculate: {{ x }} * {{ y }} ={{x*y}}
+pattern: few-shot

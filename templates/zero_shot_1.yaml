@@ -1,0 +1,13 @@
+# name: greet_user
+# description: Simple zero-shot greeting
+# input_variables:
+#   - user_name
+# template: "Hello {{ user_name }}, welcome to our service!"
+# pattern: zero-shot
+name: greet_user
+description: Greeting prompt
+input_vars:
+  - name: user_name
+    type: str
+    required: true
+template: "Hello {{ user_name }}!"

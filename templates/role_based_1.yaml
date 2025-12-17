@@ -1,0 +1,8 @@
+name: role_greeter
+description: Role-based greeting as a friendly assistant
+input_vars:
+  - name: user_name
+    type: str
+    required: true
+template: "You are a friendly assistant. Greet the user: Hello {{ user_name }}!"
+pattern: role-based

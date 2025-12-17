@@ -1,0 +1,8 @@
+name: farewell_user
+description: Zero-shot farewell
+input_vars:
+  - name : user_name
+    type : str
+    required: true
+template: "Goodbye {{ user_name }}, have a great day!"
+pattern: zero-shot

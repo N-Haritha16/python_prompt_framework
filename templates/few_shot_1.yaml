@@ -1,0 +1,12 @@
+name: sum_example
+description: Few-shot example to calculate sum
+input_vars:
+  - name: a
+    type: int
+    required: true
+  - name: b
+    type: int
+    required: true
+template: |
+  Now calculate: {{ a }} + {{ b }} = {{ a + b }}
+pattern: few-shot

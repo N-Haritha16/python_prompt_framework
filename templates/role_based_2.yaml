@@ -1,0 +1,8 @@
+name: role_farewell
+description: Role-based farewell as a professional assistant
+input_vars:
+  - name: user_name
+    type: str
+    required: true  
+template: "You are a professional assistant. Say goodbye: Goodbye {{ user_name }}, have a nice day!"
+pattern: role-based

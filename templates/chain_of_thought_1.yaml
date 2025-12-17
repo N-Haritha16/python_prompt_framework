@@ -1,0 +1,12 @@
+name: cot_addition
+description: Chain-of-thought addition
+input_vars:
+  - name: a
+    type: int
+    required: true
+  - name: b
+    type: int
+    required: true
+template: |
+    The result is: {{a+b}}
+pattern: cot

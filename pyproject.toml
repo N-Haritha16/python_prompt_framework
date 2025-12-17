@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python_prompt_framework"
+version = "0.1.0"
+description = "A reusable Python framework for LLM prompt engineering"
+readme = "README.md"
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = [
+    "pydantic>=1.10",
+    "pyyaml>=6.0",
+    "jinja2>=3.1"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/python_prompt_framework"
+Documentation = "https://github.com/yourusername/python_prompt_framework#readme"
+Source = "https://github.com/yourusername/python_prompt_framework"
+Bug Tracker = "https://github.com/yourusername/python_prompt_framework/issues"
+
+[tool.setuptools.packages.find]
+where = ["python_prompt_framework"]
